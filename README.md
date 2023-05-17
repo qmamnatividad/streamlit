@@ -1,2 +1,2 @@
 # About
-Introducing the Streamlit weather classification app! Users can upload weather-related images, and our model predicts the weather type. While not highly accurate, it gets the job done.
+This is a streamlit weather classification app. Users can upload images associated with weather, and the model will provide predictions. While the model's accuracy may not be perfect, it still fulfills its intended purpose effectively.
