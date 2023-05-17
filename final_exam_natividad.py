@@ -9,7 +9,7 @@ model=load_model()
 st.write("""
 # Weather Classification"""
 )
-file=st.file_uploader("Choose weather photo from computer",type=["jpg","png",jpeg"])
+file=st.file_uploader("Choose weather photo from computer",type=["jpg","png"])
 
 import cv2
 from PIL import Image,ImageOps
