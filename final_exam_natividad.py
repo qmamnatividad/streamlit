@@ -3,7 +3,7 @@ import tensorflow as tf
 
 @st.cache_resource
 def load_model():
-  model=tf.keras.models.load_model('weather.h5')
+  model=tf.keras.models.load_model('weather_classification.h5')
   return model
 model=load_model()
 st.write("""
